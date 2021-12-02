@@ -1,0 +1,9 @@
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.pdb
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.Form1.resources
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.Properties.Resources.resources
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.csproj.GenerateResource.Cache
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.exe
+c:\users\weiv\documents\visual studio 2010\Projects\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.pdb
+C:\Users\weiv\Desktop\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.exe
+C:\Users\weiv\Desktop\WindowsFormsApplication10\WindowsFormsApplication10\obj\x86\Debug\WindowsFormsApplication10.pdb
