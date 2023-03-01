@@ -1,0 +1,29 @@
+package com.test;
+
+import com.test.mapper.UserMapper;
+import com.test.pojo.User;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+//代理开发
+public class MyBatisDemo2 {
+    public static void main(String[] args) throws IOException {
+        //加载配置文件，获取sqlsessionfactory
+        String resource = "mybatis-config.xml";
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        //获取sqlsession用于执行sql
+        SqlSession sqlSession  = sqlSessionFactory.openSession();
+       // List<User> users = sqlSession.selectList("test.selectALL");
+        //获取接口代理对象
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        List<User> users = userMapper.selectALL();
+        System.out.println(users);
+        sqlSession.close();
+    }
+}
